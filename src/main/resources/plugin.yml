@@ -1,0 +1,11 @@
+name: ${project.name}
+version: ${project.version}
+main: jay.spawn.Spawn
+description: A simple plugin for handling spawn location and teleportation.
+author: Jay
+api-version: 1.17
+commands:
+  spawn:
+    description: Teleport to spawn location.
+  setspawn:
+    description: Set the spawn location.

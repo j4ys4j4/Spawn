@@ -1,0 +1,5 @@
+# Prefix Plugin
+prefix: "&7[SPAWN]&r "
+
+# Spawn Location
+spawn: "world,0,64,0,0,0"

@@ -1,0 +1,9 @@
+# Spawn messages
+messages:
+  teleported: "&aTeleported to spawn!"
+  spawn_not_set: "&cSpawn location is not set!"
+  player_not_found: "&cPlayer not found or offline."
+  usage_teleport_other: "&cUsage: /spawn <player>"
+  spawn_set: "&aSpawn location has been set!"
+  invalid_player: "&cThis command can only be executed by a player!"
+  teleported_other: "&aTeleported {player} to spawn!"
