@@ -12,7 +12,7 @@ Spawn is a simple Bukkit/Spigot plugin developed with Kotlin. It's designed to e
 
 - **/spawn:** Teleport to the spawn location.
 - **/setspawn:** Set the spawn location.
-- **/spawn reload:** Reload the plugin configuration.
+- **/spawn:reload:** Reload the plugin configuration.
 
 ## ⚙️ Permissions
 
