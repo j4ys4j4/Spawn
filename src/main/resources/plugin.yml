@@ -1,11 +1,16 @@
 name: ${project.name}
 version: ${project.version}
-main: jay.spawn.Spawn
-description: A simple plugin for handling spawn location and teleportation.
+main: ${project.groupId}.Spawn
 author: Jay
-api-version: 1.17
+description: A lightweight and simple plugin for managing spawn locations and teleportation.
+
 commands:
   spawn:
-    description: Teleport to spawn location.
+    description: Teleport to the spawn location.
+    usage: /spawn [player]
   setspawn:
     description: Set the spawn location.
+    usage: /setspawn
+  reload:
+    description: Reload the plugin configuration.
+    usage: /spawn reload

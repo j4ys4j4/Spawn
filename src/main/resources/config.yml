@@ -1,5 +1,14 @@
 # Prefix Plugin
 prefix: "&7[SPAWN]&r "
+reload-message: "&aConfiguration reloaded successfully."
 
-# Spawn Location
-spawn: "world,0,64,0,0,0"
+# Spawn & Messages Configuration
+spawn:
+  location: "world,0,64,0,0,0"
+  player-last-location: false
+messages:
+  teleported: "&aYou've been teleported!"
+  spawn_not_set: "&cSpawn location not set."
+  player_not_found: "&cPlayer not found."
+  spawn_set: "&aSpawn location set!"
+  teleported_other: "&aYou teleported {player}!"
